@@ -44,7 +44,7 @@ URL Reputation:
 
     VirusTotal : Malicious [13/92 vendors flagged the url as malicious ]
     URLhaus : No available data
-    ANY.RUN : Malicious [Hybrid analysis and previous analysis show phishing activity ]
+    Hybrid Analysis : Malicious [Hybrid analysis and previous analysis show phishing activity ]
     Google Safe Browsing :No unsafe data found 
 
     Overall assessment : Threat intelligence enrichment indicates that the investigated URL is associated with phishing activity. VirusTotal classified the URL as malicious, while ANY.RUN behavioral analysis identified characteristics consistent with a phishing campaign. Although several additional OSINT platforms either had no available intelligence or did not classify the URL as malicious, this does not negate the findings from the corroborating sources.
