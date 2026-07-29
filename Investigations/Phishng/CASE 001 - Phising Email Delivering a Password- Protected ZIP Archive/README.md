@@ -91,9 +91,9 @@ NETWORK INVESTIGATION
 
     C2 : No command-and-control (C2) communication was identified. Network telemetry did not reveal any outbound connections to known malicious infrastructure.
 
-INCIDENT CLASSIFICATION: 
+INCIDENT CLASSIFICATION : 
 
-True Positive
+True Positive : 
    
     Endpoint and network telemetry found no evidence that the recipient downloaded, opened, or executed the attachment. No DNS queries, HTTP/HTTPS requests, PowerShell activity, suspicious processes, persistence mechanisms, command-and-control communication, or data exfiltration were observed.
     The incident is therefore classified as a "True Positive phishing attempt with no successful endpoint compromise".
