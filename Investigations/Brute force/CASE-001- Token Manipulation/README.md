@@ -184,8 +184,7 @@ EndPoint Activity Analysis
 
     Endpoint Assessment:
 
-        Analysis of the authentication logs, endpoint telemetry, process activity, command-line history, and system events indicates that the brute-force attack against the endpoint **LARK** was successful, 
-        resulting in unauthorized access to the system. Subsequent endpoint activity, including PowerShell execution, system and privilege enumeration, security control modifications,
+        Analysis of the authentication logs, endpoint telemetry, process activity, command-line history, and system events indicates that the brute-force attack against the endpoint **LARK** was successful, resulting in unauthorized access to the system. Subsequent endpoint activity, including PowerShell execution, system and privilege enumeration, security control modifications,
          attempted privilege escalation, and the establishment of persistence through a scheduled task, confirms that the endpoint was compromised.
 
         Based on the observed post-authentication activity, the incident is assessed as a confirmed endpoint compromise. Immediate containment of the affected host is recommended to prevent further attacker activity,
@@ -254,7 +253,7 @@ Incident Classification :
 
 
 RESPONSE:
- ## Response
+ 
 
      Containment
 
