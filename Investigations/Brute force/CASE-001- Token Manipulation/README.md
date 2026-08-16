@@ -254,7 +254,6 @@ Incident Classification :
 
 RESPONSE:
  
-
      Containment
 
         The affected endpoint (**LARK**) should be immediately isolated from the network to prevent further malicious activity and limit the risk of lateral movement. 
@@ -275,7 +274,7 @@ RESPONSE:
         and appropriate protective measures should be implemented to mitigate any identified risks.
 
 
-lessons Learned 
+Lessons Learned 
     
     Enforce strong password policies and account lockout thresholds.
     Enable MFA for privileged and remote access accounts.
