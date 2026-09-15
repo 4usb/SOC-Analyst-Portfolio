@@ -6,17 +6,16 @@
 
         The Ubuntu servers function as both WireGuard VPN gateways and routers for their respective internal networks. The required WireGuard packages were installed on both gateways:
 
-        ```bash
-        sudo apt update
-        sudo apt install wireguard wireguard-tools
+       
+                sudo apt update
+                sudo apt install wireguard wireguard-tools
 
-        ```
 
         The installation provided the WireGuard kernel interface and command-line management utilities required to create, configure, and verify the VPN tunnel.
 
         WireGuard was configured to use the `wg0` interface on both gateways. The VPN uses UDP port `51820` for WireGuard communication across the simulated WAN, and this port was explicitly permitted through the Uncomplicated Firewall (UFW) on both gateways to ensure unhindered encrypted transport.
 
-        ---
+        
 
     3.2 Key Generation
 
@@ -24,10 +23,10 @@
 
             Key generation was performed using the WireGuard utility:
 
-            ```bash
-            wg genkey | tee privatekey | wg pubkey > publickey
+            
+                wg genkey | tee privatekey | wg pubkey > publickey
 
-            ```
+            
 
             This produced:
 
@@ -48,10 +47,9 @@
 
             IPv4 forwarding was enabled on the HQ gateway to allow the server to route traffic between network interfaces. The current forwarding state can be checked using:
 
-            ```bash
-            sysctl net.ipv4.ip_forward
+                sysctl net.ipv4.ip_forward
 
-            ```
+            
 
             A value of `net.ipv4.ip_forward = 1` confirms that IPv4 forwarding is enabled. IPv4 forwarding is required because the HQ server acts as a router rather than simply terminating the VPN connection.
 
