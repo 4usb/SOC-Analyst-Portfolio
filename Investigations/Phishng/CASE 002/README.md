@@ -137,7 +137,7 @@ Response :
 
     Eradication : No eradication activities were required because the investigation found no evidence of malware execution, persistence mechanisms, or unauthorized system modifications on the endpoint.
 
-    Response :  No recovery actions were required because the endpoint remained uncompromised. Normal operations continued after confirming the absence of malicious activity.
+    Recovery :  No recovery actions were required because the endpoint remained uncompromised. Normal operations continued after confirming the absence of malicious activity.
 
 
 Lessons Learned : 
